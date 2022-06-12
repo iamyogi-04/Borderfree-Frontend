@@ -1,0 +1,109 @@
+.product-container {
+    height: 95rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.topbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: lightgrey;
+    height: 5%;
+    align-items: center;
+}
+.container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 60px;
+}
+.content-right {
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+.sizechart {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+h4.size-chart {
+    margin-left: 10%;
+}
+button.size-m {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    background: white;
+    border:1px solid gray ;
+    
+}
+button.size-l {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    background: white;
+    border:1px solid gray ;
+    
+    margin-left: 25px;
+}
+button.size-xl {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    background: white;
+    border:1px solid gray ;
+    
+    margin-left: 25px;
+}
+button.addtobag {
+    width: 240px;
+    height: 65px;
+    border: 1px solid gray;
+    border-radius: 17px;
+    background: darkorange;
+    color: white;
+    font-size: larger;
+    font-weight: 500;
+}
+button.addtobag:hover {
+    border: 1px solid darkorange;
+    background: white;
+    color: darkorange;
+}
+button.wishlist {
+    width: 202px;
+    height: 65px;
+    border: 1px solid gray;
+    border-radius: 17px;
+    background: white;
+    color: red;
+    font-size: larger;
+    font-weight: 500;
+    margin-left: 40px;
+}
+button.wishlist:hover{
+    border: 1px solid white;
+    border-radius: 17px;
+    background: red;
+    color: white;
+
+}
+.deliveryoption {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+input.pincode {
+    margin-top: 15px;
+    width: 290px;
+    text-align: center;
+    border-radius: 8px;
+    color: darkorange;
+    padding: 4px;
+}
+
